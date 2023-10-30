@@ -1,0 +1,92 @@
+.prize-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: space-around;
+    text-align: center;    
+}
+
+.prize-container h1,
+.prize-container h3
+{
+    padding: 20px 20px;
+}
+.prize-container p {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.title {
+    text-decoration: underline;
+ }
+
+ 
+
+
+
+.prize {
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+/* signup styling */
+.signup {
+    width: 100%;
+    padding: 6rem 0;
+    background-color: rgba(19, 19, 19, 0.8);
+}
+
+.signup-content {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.signup-content .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.left form input {
+    width: 80%;
+    padding: 10px;
+    border:0capitalone;
+    border-radius: 5px;
+    background-color: rgba(66, 66, 66, 0.8);
+    color: #dddddd;
+    font-size: 1.2rem;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+.sub-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mail {
+    color: #64CCC5;
+}
+
+@media screen and (max-width: 640px) {
+    .signup-content {
+        grid-template-columns: 1fr;
+    }
+
+    .signup-content .righ {
+        text-align: center;
+    }   
+}

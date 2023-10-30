@@ -1,0 +1,11 @@
+footer {
+    width: 100%;
+    height: 20px;
+}
+
+.footer-container {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    line-height: 2rem;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,78 @@
+.dates {
+    width: 97vw;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.info-cointainer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+.infoCard {
+    margin: 10px;
+    padding: 10px;
+    background-color: #176B87;
+    word-spacing: 1px;
+    line-height: 25px;
+    border-radius: 7px;
+}
+
+.info-title {
+    text-align: start;
+    font-size: large;
+    font-weight: 400;
+    margin-left: 10px;
+    padding: none;
+}
+
+.info-content {
+    text-align: justify;
+    padding: 5px;
+    padding: 5px 10px 10px 10px;
+    margin-left: 10px;
+}
+
+.btn-info {
+    text-align: center;
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+
+
+.sub-info {
+    background-color: aliceblue;    
+    padding: 10px;
+    margin: 40px;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.section2 {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:640px) {
+    .info-cointainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

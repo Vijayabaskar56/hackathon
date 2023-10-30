@@ -1,0 +1,52 @@
+.Schedule-Cointainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-cointainer {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    padding: 5rem 0;
+}
+
+.event-card {
+    background: #176B87;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    padding: 1.2rem 1rem;
+}
+
+.event-card img{
+    width: 100% ;
+}
+
+.hero-text{
+ padding: 10px;
+ font-size: small;
+ width: 70%;
+}
+
+.event-title {
+    color: black;
+    padding: 1rem 0;
+}
+
+.event-details {
+    color: black;
+    padding: 1rem 0;
+}
+
+.time {
+    color: #64CCC5;
+}
+
+@media screen and (max-width: 740px) {
+     .event-cointainer {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+     }
+}

@@ -1,0 +1,36 @@
+#name,
+#email,
+#phone {
+    width: 80%;
+    height: 10%;
+    color: #DAFFFB;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#phone {
+    margin-bottom: 20px;
+}
+
+#name::placeholder,
+#email::placeholder,
+#phone::placeholder {
+    color: #DAFFFB;
+}
+
+.msg {
+    color: red;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+@media screen and (max-width: 740px) {
+    .form-cointainer {
+        display: flex;
+        justify-content: center;
+        width: auto;
+}
+
+
+}
